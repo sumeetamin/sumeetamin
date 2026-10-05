@@ -1,8 +1,8 @@
 # Sumeet Amin
 
-**Data Analyst | Applied Data Science, ML Systems & AI**
+**Sports Analytics | Applied ML & Decision Systems**
 
-I build reproducible data science and machine learning projects, with a focus on making model outputs useful in real workflows. I hold a BSc in Data Science and have 2+ years of experience across sports analytics and freelance data projects.
+I bring 2+ years across sports analytics and freelance data projects, backed by a BSc in Data Science. I build reproducible ML systems that turn data into useful decisions, with careful evaluation, clear assumptions, and practical workflows. The projects below demonstrate that approach across fraud detection, demand forecasting, and document processing.
 
 ## Selected projects
 
