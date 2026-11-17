@@ -7,10 +7,13 @@ I bring 2+ years across sports analytics and freelance data projects, backed by 
 ## Selected projects
 
 ### [Fraud Detection Platform](https://github.com/sumeetamin/fraud-detection-platform)
-Temporal fraud modelling with delayed-label simulation, a FastAPI scoring service, analyst review queue, drift monitoring, and reproducible evaluation. Uses a public benchmark; results are research demonstrations, not for financial decisions.
+Temporal fraud modelling with delayed-label simulation, a FastAPI scoring service, analyst review queue, drift monitoring, and reproducible evaluation. On an OpenML benchmark replay, 1,000 local authenticated requests completed with zero errors; at concurrency 16, throughput was 58.14 requests/s with 394.97 ms p95 latency on this workstation. This is not hosted capacity or financial decision evidence.
 
 ### [Retail Demand Intelligence](https://github.com/sumeetamin/retail-demand-intelligence)
-Demand forecasting with temporal backtests, uncertainty intervals, and an inventory planning workflow. Includes a reproducible Python demo with FastAPI and Streamlit.
+Demand forecasting with temporal backtests, uncertainty intervals, and an inventory planning workflow. On three held-out windows, gradient boosting reduced mean MAE 18.3% versus a seasonal baseline, but raised simulated inventory cost 9.2%; the README recommends the seasonal baseline for the tested cost setup. Includes a reproducible Python demo with FastAPI and Streamlit.
+
+### [Credit Risk Fairness Monitor](https://github.com/sumeetamin/credit-risk-fairness-monitor)
+A 30,000-row UCI benchmark with a stratified holdout, threshold trade-offs, and subgroup error audit. The logistic-regression baseline achieved ROC-AUC 0.715 and average precision 0.499 on one split. Research prototype only; not a lending decision or fairness claim.
 
 ### [Document Verification AI](https://github.com/sumeetamin/document-verification-ai)
 Local NLP and optional OCR for invoice extraction, evidence review, and purchase-order matching. The README distinguishes synthetic evaluation from real-world performance and documents supported input limits.
