@@ -4,6 +4,8 @@
 
 I hold a BSc in Data Science and build reproducible data and machine-learning systems that turn analysis into useful decisions. My work emphasizes leakage-aware evaluation, clear assumptions, and practical workflows across fraud detection, forecasting, risk, and LLM evaluation.
 
+[View my portfolio website](https://sumeetamin.github.io/portfolio/) · [LinkedIn](https://www.linkedin.com/in/sumeet-amin-952633217/) · [Upwork](https://www.upwork.com/freelancers/~01cf68f33aad4287d4)
+
 ## Selected projects
 
 ### [Fraud Detection Platform](https://github.com/sumeetamin/fraud-detection-platform)
