@@ -24,7 +24,7 @@ Evaluation tooling for traces, rubric-based grading, and benchmark analysis. On 
 Built a capacity-limited churn outreach ranking on UCI's 3,150-customer single-company dataset. On a stratified holdout, the top 10% contact queue had 70.5% precision and captured 44.4% of holdout churners (55 of 124) on one split. One split only; this is not an uplift or campaign-impact estimate.
 
 ### [Turbofan Remaining Useful Life](https://github.com/sumeetamin/turbofan-remaining-useful-life)
-Built an engine-disjoint remaining-useful-life benchmark on NASA's simulated C-MAPSS FD001 data. At cycle 100, capped RUL MAE was 15.77 cycles versus a 27.8-cycle median baseline across 25 held-out engines; 9 had raw RUL above the 125-cycle cap. FD001 covers one simulated operating condition and fault mode; this is not real-fleet validation.
+Built an engine-disjoint remaining-useful-life benchmark on NASA's simulated C-MAPSS FD001 data. At cycle 100, capped-label MAE was 15.77 cycles and raw-target MAE was 25.53 cycles for the same capped model; the median baseline had 27.8-cycle capped-label MAE, and 9 of 25 held-out engines exceeded the 125-cycle cap. FD001 covers one simulated operating condition and fault mode; this is not real-fleet validation.
 
 ## Engineering approach
 
