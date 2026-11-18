@@ -21,7 +21,7 @@ A 30,000-row UCI benchmark with a stratified holdout, threshold trade-offs, and 
 Evaluation tooling for traces, rubric-based grading, and benchmark analysis. On 2,675 official RAGTruth test responses from 450 disjoint source groups, a TF-IDF context/answer support baseline achieved 75.3% accuracy, 70.9% balanced accuracy, and 0.781 ROC-AUC. The workbench also prepares a source-disjoint, human-annotated RAGTruth sample for semantic-judge calibration; no semantic-judge scores are claimed yet. This is a lexical baseline, not a semantic LLM judge or production safety result.
 
 ### [Telco Churn Retention Planner](https://github.com/sumeetamin/telco-churn-retention-planner)
-Built a capacity-limited churn outreach ranking on UCI's 3,150-customer single-company dataset. On a stratified holdout, the top 10% contact queue captured 70.5% of holdout churners. One split only; this is not an uplift or campaign-impact estimate.
+Built a capacity-limited churn outreach ranking on UCI's 3,150-customer single-company dataset. On a stratified holdout, the top 10% contact queue had 70.5% precision and captured 44.4% of holdout churners (55 of 124) on one split. One split only; this is not an uplift or campaign-impact estimate.
 
 ### [Turbofan Remaining Useful Life](https://github.com/sumeetamin/turbofan-remaining-useful-life)
 Built an engine-disjoint remaining-useful-life benchmark on NASA's simulated C-MAPSS FD001 data. At cycle 100, the held-out 25 engines had 15.77-cycle MAE versus a 27.8-cycle median baseline. FD001 covers one simulated operating condition and fault mode; this is not real-fleet validation.
