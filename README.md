@@ -12,7 +12,7 @@ I hold a BSc in Data Science and build reproducible data and machine-learning sy
 End-to-end fraud scoring workflow with delayed-label simulation, a FastAPI service, analyst review queue, drift monitoring, and reproducible evaluation. On a local authenticated API replay, 1,000 requests completed with zero errors; at concurrency 16, throughput was 58.14 requests/second with 394.97 ms p95 latency on this workstation. This measures local replay performance, not hosted capacity or financial decision quality.
 
 ### [Retail Demand Intelligence](https://github.com/sumeetamin/retail-demand-intelligence)
-Demand forecasting with temporal backtests, uncertainty intervals, and an inventory planning workflow. Across three held-out windows, gradient boosting reduced mean MAE 18.3% versus a seasonal baseline, but raised simulated inventory cost 9.2%; the documented recommendation is to retain the seasonal baseline for the tested cost setup.
+Demand forecasting with temporal backtests, uncertainty intervals, and an inventory planning workflow. Across three held-out windows, boosting reduced mean absolute forecast error by 18.3% and raised simulated replenishment cost by 28.0% versus the seasonal baseline. The planner selects the seasonal policy under these cost assumptions.
 
 ### [Credit Risk Fairness Monitor](https://github.com/sumeetamin/credit-risk-fairness-monitor)
 A 30,000-row UCI credit-default benchmark with validation-selected logistic regression, threshold trade-offs, and a subgroup audit. On one stratified holdout it achieved ROC-AUC 0.714, average precision 0.502, and Brier 0.146 versus 0.172 for a train-prevalence baseline. Research prototype only; not a lending decision or fairness claim.
